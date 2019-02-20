@@ -1,0 +1,49 @@
+ul{
+
+    background-color: grey;
+    
+    display: flex;
+    
+    justify-content: space-between;
+    
+}
+    
+a{
+    
+    color: white;
+    
+    text-decoration: none;
+    
+    
+    
+}
+    
+li{
+    
+    color: grey;
+    
+}
+    
+span{
+    
+    display: flex;
+    
+    font-size: 10px;
+
+    
+    
+}
+    
+li a{
+    
+    display: flex;
+    
+    align-content: space-around;
+    
+}
+
+@media screen and (max-width: 750px) {
+    ul{
+        flex-direction:column;
+    }
+} 
