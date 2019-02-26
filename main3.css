@@ -1,0 +1,35 @@
+section {
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+  }
+  
+  .column {
+    margin: 10px;
+    flex-grow: 4;
+    flex-shrink: 4;
+    flex-basis: 0;
+  }
+
+  
+
+  html, body {
+    height: 100%;
+    
+  }
+  
+  body {
+    background: linear-gradient(135deg, #b04, #f80) fixed;
+  }
+  
+  .column {
+    
+    background-color: rgba(255, 0, 0, 0.25);
+    text-align: center;
+    
+    border: 1px solid transparentize(white, 0.25);
+    background-color: transparentize(white, 0.8);
+    color: transparentize(white, 0.1);
+  }
+
+  
